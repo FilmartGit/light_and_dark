@@ -16,7 +16,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-color);

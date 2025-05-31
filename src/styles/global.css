@@ -1,22 +1,42 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: var(--bg-color);
-    transition: all .3s ease;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  transition: all 0.3s ease;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,
+h2,
+h3,
+p,
+a {
+  padding: 0;
+  margin: 0;
 }
 
 :root {
-    /* По умолчанию светлая тема */
-    --bg-color: #F2F3F7;
-    --bg-container-color: #FFFFFF;
-    --text-color: #000000;
-    --border-color: #ebebeb;
+  /* По умолчанию светлая тема */
+  --bg-color: #f2f3f7;
+  --bg-container-color: #ffffff;
+  --text-color: #000000;
+  --text-color-span: #313131;
+  --border-color: #ebebeb;
+  --bg-button-color: #0b3fbb;
+  --bg-progress-color: #f0f3fb;
+  --text-color-progress: #0b3fbb;
+  --icon-color-clap: #b58aec;
 }
 
-[data-theme='dark']{
-    /* Темная тема */
-    --bg-color: #000000;
-    --bg-container-color: #111111;
-    --text-color: #F2F3F7;
-    --border-color: #222222;
+[data-theme="dark"] {
+  /* Темная тема */
+  --bg-color: #000000;
+  --bg-container-color: #111111;
+  --text-color: #f2f3f7;
+  --text-color-span: #afafaf;
+  --border-color: #222222;
+  --bg-button-color: #06256b;
+  --bg-progress-color: #222222;
+  --text-color-progress: #0038ff;
+  --icon-color-clap: #b58aec;
 }

@@ -8,10 +8,131 @@
   overflow: hidden;
 }
 
-.coverImage{
-    height: 100px;
-    width: auto;
-    background-image: url("/public/header.jpg");
-    background-position: center;
-    background-size: cover;
+.coverImage {
+  height: 100px;
+  width: auto;
+  background-image: url("/public/header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.profile {
+  width: 100%;
+  position: relative;
+}
+.photoRounded {
+  position: relative;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.avatar {
+  position: absolute;
+  top: -45px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background-position: center;
+  background-size: cover;
+  background-image: url("/public/photo.jpg");
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.textContent a {
+  text-decoration: underline;
+  color: var(--text-color);
+}
+
+.tagsContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 10px;
+}
+.tagsItem {
+  border: 1px solid var(--border-color);
+  padding: 5px 7px;
+  border-radius: 10px;
+  font-size: .9em;
+}
+
+.about{
+    padding: 10px;
+    font-size: small;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.about span, .form span, .achivementProfile span{
+    font-size: small;
+    color: var(--text-color-span);
+}
+
+.form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input{
+    border: 1px solid var(--border-color);
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: .9em;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+.formInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.spacing{
+    height: 1px;
+    border-bottom: 1px solid var(--border-color);
+    margin: 10px 0px;
+}
+.achivementProfile{
+    padding: 10px;
+    
+}
+.progressAchive{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--bg-progress-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    margin-top: 10px;
+    color: var(--text-color-progress);
+    overflow: hidden;
+}
+.progressCount{
+    font-size: 2.3em;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+.progressTitle{
+    font-size: .9em;
+    line-height: .9em;
+    font-weight: 400;
+    letter-spacing: normal;
+    padding: 10px;
+    color: var(--text-color-span)
+}
+.clap{
+    font-size: 100px;
+    padding: 5px;
+    color: var(--icon-color-clap);
 }
