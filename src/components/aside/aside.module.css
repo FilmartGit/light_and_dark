@@ -1,0 +1,17 @@
+.aside {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-container-color);
+  color: var(--text-color);
+  border-radius: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.coverImage{
+    height: 100px;
+    width: auto;
+    background-image: url("/public/header.jpg");
+    background-position: center;
+    background-size: cover;
+}

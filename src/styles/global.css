@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    transition: all .3s ease;
+}
+
+:root {
+    /* По умолчанию светлая тема */
+    --bg-color: #F2F3F7;
+    --bg-container-color: #FFFFFF;
+    --text-color: #000000;
+    --border-color: #ebebeb;
+}
+
+[data-theme='dark']{
+    /* Темная тема */
+    --bg-color: #000000;
+    --bg-container-color: #111111;
+    --text-color: #F2F3F7;
+    --border-color: #222222;
+}
