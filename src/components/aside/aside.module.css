@@ -1,5 +1,6 @@
 .aside {
   width: 100%;
+  height: fit-content;
   border: 1px solid var(--border-color);
   background-color: var(--bg-container-color);
   color: var(--text-color);
