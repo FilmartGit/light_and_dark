@@ -126,7 +126,16 @@ const ACHIVE = [
     title: "MongoDb",
     img: "/achive/mongo.png",
     description:
-      "Платформа с открытым исходным кодом для автоматизации разработки, доставки и развёртывания приложений.",
+      "Документ-ориентированная система управления базами данных (СУБД) NoSQL.",
+    progress: 20,
+    side: "fullstack"
+  },
+  {
+    id: "socket",
+    title: "Socket IO",
+    img: "/achive/socket.png",
+    description:
+      "JavaScript-библиотека для веб-приложений и обмена данными в реальном времени.",
     progress: 0,
     side: "fullstack"
   },

@@ -5,7 +5,7 @@ export default function AboutProfile() {
     <div className={style.about}>
       <span>Описание профиля</span>
       <p>
-        Junior developer JavaScript. Love: TypeScript, React, Next.js,
+        WEB developer JavaScript. Love: TypeScript, React, Next.js,
         TailwindCSS, Sass, Scss. Backend: Nest.Js, MongoDB
       </p>
     </div>
