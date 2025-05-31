@@ -28,6 +28,8 @@ a {
   --icon-color-clap: #b58aec;
   --bg-color-card: white;
   --text-color-side: #808080;
+  --bg-progress-back: #E6E8EA;
+  --bg-progress-front: #1BB370;
 }
 
 [data-theme="dark"] {
@@ -43,4 +45,6 @@ a {
   --icon-color-clap: #b58aec;
   --bg-color-card: #222222;
   --text-color-side: #808080;
+  --bg-progress-back: #222222;
+  --bg-progress-front: #1BB370;
 }

@@ -1,10 +1,16 @@
-import { useState } from "react";
 import IconsUI from "../../../ui/icons";
 import style from "../../aside.module.css";
+import ACHIVE from "../../../dashboard/constant";
 
 export default function AchivmentsProgress() {
-  const [progress, setProgress] = useState(75);
-
+  const summProgress = ACHIVE.reduce((acc, cur) => {
+    return acc + cur.progress;
+  }, 0);
+  const calcProgress = () => {
+    const count = Math.floor(summProgress / ACHIVE.length);
+    return count;
+  };
+  const progress = calcProgress();
   return (
     <div className={style.achivementProfile}>
       <span>Прогресс достижений</span>
@@ -22,10 +28,9 @@ export default function AchivmentsProgress() {
         <div>
           <p className={style.progressCount}>{progress}%</p>
           <p className={style.progressTitle}>
-            Маленький шаг для человека - большой шаг для интернет пространства!
+            Маленький шаг для интернета - большой шаг для творчества!
           </p>
         </div>
-
         <IconsUI.Clap className={style.clap} />
       </div>
     </div>

@@ -4,7 +4,7 @@ const ACHIVE = [
     title: "React.js",
     img: "/achive/react.png",
     description: "Позволяет создавать интерактивные веб-приложения.",
-    progress: 100,
+    progress: 70,
     side: "frontend",
   },
   {
@@ -13,7 +13,7 @@ const ACHIVE = [
     img: "/achive/next.webp",
     description:
       "фреймворк на базе React для разработки веб-приложений. Он позволяет создавать клиент-серверные (fullstack) приложения",
-    progress: 100,
+    progress: 70,
     side: "fullstack",
   },
   {
@@ -21,7 +21,7 @@ const ACHIVE = [
     title: "JavaScript ES6",
     img: "/achive/js.png",
     description: "JavaScript используют для написания frontend и backend",
-    progress: 100,
+    progress: 90,
     side: "fullstack",
   },
   {
@@ -49,21 +49,31 @@ const ACHIVE = [
     side: "frontend"
   },
   {
+    id: "webpack",
+    title: "Webpack",
+    img: "/achive/webpack.png",
+    description:
+      "Cборщик модулей (bundler) для веб-разработки. Он позволяет скомпилировать JavaScript-модули в единый JS-файл",
+    progress: 80,
+    side: "fullstack"
+  },
+  {
     id: 6,
     title: "Tilwind CSS v.4",
     img: "/achive/tilwind.png",
     description:
       "Благодаря готовым классам можно быстро и эффективно создавать интерфейсы",
-    progress: 100,
+    progress: 80,
     side: "frontend"
   },
+  
   {
     id: 8,
     title: "TypeScript",
     img: "/achive/ts.png",
     description:
       "Язык программирования, который расширяет возможности JavaScript за счёт добавления строгой типизации данных",
-    progress: 0,
+    progress: 20,
     side: "fullstack"
   },
   {
@@ -72,7 +82,7 @@ const ACHIVE = [
     img: "/achive/node.png",
     description:
       "Позволяет писать серверный код для веб-страниц и веб-приложений, а также для программ командной строки.",
-    progress: 0,
+    progress: 10,
     side: "backend"
   },
   {
@@ -90,8 +100,35 @@ const ACHIVE = [
     img: "/achive/nest.svg",
     description:
       "Фреймворк для создания масштабируемых серверных приложений на основе платформы Node.js",
-    progress: 0,
+    progress: 20,
     side: "backend"
+  },
+  {
+    id: "vite",
+    title: "Vite",
+    img: "/achive/vite.png",
+    description:
+      "Упрощает взаимодействие с JavaScript-фреймворками, а также производит оптимизацию контента и кода в проекте.",
+    progress: 0,
+    side: "fullstack"
+  },
+  {
+    id: "docker",
+    title: "Docker",
+    img: "/achive/docker.png",
+    description:
+      "Платформа с открытым исходным кодом для автоматизации разработки, доставки и развёртывания приложений.",
+    progress: 0,
+    side: "fullstack"
+  },
+  {
+    id: "mongodb",
+    title: "MongoDb",
+    img: "/achive/mongo.png",
+    description:
+      "Платформа с открытым исходным кодом для автоматизации разработки, доставки и развёртывания приложений.",
+    progress: 0,
+    side: "fullstack"
   },
 ];
 export default ACHIVE;
