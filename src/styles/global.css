@@ -27,6 +27,7 @@ a {
   --text-color-progress: #0b3fbb;
   --icon-color-clap: #b58aec;
   --bg-color-card: white;
+  --text-color-side: #808080;
 }
 
 [data-theme="dark"] {
@@ -41,4 +42,5 @@ a {
   --text-color-progress: #0038ff;
   --icon-color-clap: #b58aec;
   --bg-color-card: #222222;
+  --text-color-side: #808080;
 }

@@ -80,7 +80,16 @@ const ACHIVE = [
     title: "Express.js",
     img: "/achive/express.png",
     description:
-      "Позволяет писать серверный код для веб-страниц и веб-приложений, а также для программ командной строки.",
+      "Веб-фреймворк для Node.js, который позволяет создавать веб-приложения и API",
+    progress: 0,
+    side: "backend"
+  },
+  {
+    id: 11,
+    title: "Nest.js",
+    img: "/achive/nest.svg",
+    description:
+      "Фреймворк для создания масштабируемых серверных приложений на основе платформы Node.js",
     progress: 0,
     side: "backend"
   },

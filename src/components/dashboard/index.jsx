@@ -17,6 +17,7 @@ export default function Dashboard() {
               description={item.description}
               img={item.img}
               progress={item.progress}
+              side={item.side}
             />
           );
         })}

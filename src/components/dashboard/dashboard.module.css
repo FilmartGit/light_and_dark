@@ -16,7 +16,7 @@
     display: grid;
     grid-template-rows: 2fr 1fr 1fr;
     justify-items: center;
-    
+    position: relative;
     gap: 10px;
     align-items: start;
     border: 1px solid var(--border-color);  
@@ -62,4 +62,13 @@
     padding: 1px 3px;
     border-radius: 4px;
     background-color: var(--bg-color-card);
+}
+.side{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: small;
+    color: var(--text-color-side);
+    background-color: var(--bg-color-card);
+    padding: 2px 5px;
 }

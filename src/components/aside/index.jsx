@@ -1,5 +1,6 @@
 import style from './aside.module.css'
 import HeaderAside from './header'
+import PluginsAchive from './plugins'
 import ProfileAside from './profile'
 
 export default function Aside(){
@@ -7,6 +8,7 @@ export default function Aside(){
         <div className={style.aside}>
             <HeaderAside />
             <ProfileAside />
+            <PluginsAchive />
         </div>
     )
 }

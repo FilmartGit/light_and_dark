@@ -62,78 +62,90 @@
   border: 1px solid var(--border-color);
   padding: 5px 7px;
   border-radius: 10px;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
-.about{
-    padding: 10px;
-    font-size: small;
-    color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+.about {
+  padding: 10px;
+  font-size: small;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-.about span, .form span, .achivementProfile span{
-    font-size: small;
-    color: var(--text-color-span);
+.about span,
+.form span,
+.achivementProfile span,  .plugins span {
+  font-size: small;
+  color: var(--text-color-span);
 }
 
 .form {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.input{
-    border: 1px solid var(--border-color);
-    padding: 7px 10px;
-    border-radius: 5px;
-    font-size: .9em;
-    color: var(--text-color);
-    background-color: var(--bg-color);
+.input {
+  border: 1px solid var(--border-color);
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: var(--text-color);
+  background-color: var(--bg-color);
 }
-.formInputs{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.formInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.spacing{
-    height: 1px;
-    border-bottom: 1px solid var(--border-color);
-    margin: 10px 0px;
+.spacing {
+  height: 1px;
+  border-bottom: 1px solid var(--border-color);
+  margin: 10px 0px;
 }
-.achivementProfile{
-    padding: 10px;
-    
+.achivementProfile {
+  padding: 10px;
 }
-.progressAchive{
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: var(--bg-progress-color);
-    border: 1px solid var(--border-color);
-    border-radius: 10px;
-    margin-top: 10px;
-    color: var(--text-color-progress);
-    overflow: hidden;
+.progressAchive {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--bg-progress-color);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  margin-top: 10px;
+  color: var(--text-color-progress);
+  overflow: hidden;
 }
-.progressCount{
-    font-size: 2.3em;
-    font-weight: 600;
-    padding: 0px 10px;
+.progressCount {
+  font-size: 2.3em;
+  font-weight: 600;
+  padding: 0px 10px;
 }
-.progressTitle{
-    font-size: .9em;
-    line-height: .9em;
-    font-weight: 400;
-    letter-spacing: normal;
-    padding: 10px;
-    color: var(--text-color-span)
+.progressTitle {
+  font-size: 0.9em;
+  line-height: 0.9em;
+  font-weight: 400;
+  letter-spacing: normal;
+  padding: 10px;
+  color: var(--text-color-span);
 }
-.clap{
-    font-size: 100px;
-    padding: 5px;
-    color: var(--icon-color-clap);
+.clap {
+  font-size: 100px;
+  padding: 5px;
+  color: var(--icon-color-clap);
+}
+
+.plugins{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.plugins a img{
+  width: 100%;
+  height: auto;
 }
