@@ -17,34 +17,42 @@ a {
 
 :root {
   /* По умолчанию светлая тема */
-  --bg-color: #f2f3f7;
-  --bg-container-color: #ffffff;
   --text-color: #000000;
   --text-color-span: #313131;
-  --border-color: #ebebeb;
+  --text-color-progress: #0b3fbb;
+  --text-color-side: #808080;
+  --bg-color: #f2f3f7;
+  --bg-container-color: #ffffff;
   --bg-button-color: #0b3fbb;
   --bg-progress-color: #f0f3fb;
-  --text-color-progress: #0b3fbb;
-  --icon-color-clap: #b58aec;
   --bg-color-card: white;
-  --text-color-side: #808080;
-  --bg-progress-back: #E6E8EA;
-  --bg-progress-front: #1BB370;
+  --bg-progress-back: #e6e8ea;
+  --bg-progress-front: #1bb370;
+  --bg-tag-color: #ffffff;
+  --border-color: #ebebeb;
+  --border-avatar: #ffffff;
+  --border-tag: current;
+  --icon-color-clap: #b58aec;
+  --shadow-default: 0px 9px 9px 0px rgb(71 71 71 / 5%);
 }
 
 [data-theme="dark"] {
   /* Темная тема */
-  --bg-color: #000000;
-  --bg-container-color: #111111;
   --text-color: #f2f3f7;
   --text-color-span: #afafaf;
-  --border-color: #222222;
+  --text-color-progress: #0038ff;
+  --text-color-side: #808080;
+  --bg-color: #000000;
+  --bg-container-color: #111111;
+  --bg-progress-back: #222222;
+  --bg-progress-front: #1bb370;
   --bg-button-color: #06256b;
   --bg-progress-color: #222222;
-  --text-color-progress: #0038ff;
-  --icon-color-clap: #b58aec;
   --bg-color-card: #222222;
-  --text-color-side: #808080;
-  --bg-progress-back: #222222;
-  --bg-progress-front: #1BB370;
+  --bg-tag-color: #111111;
+  --border-color: #222222;
+  --border-avatar: #222222;
+  --border-tag: #222222;
+  --icon-color-clap: #b58aec;
+  --shadow-default: 0px;
 }

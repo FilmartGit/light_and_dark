@@ -5,7 +5,7 @@ export default function Logotype() {
   return (
     <div className={style.logotype}>
       <IconsUI.Logotype className={style.logotypeIcon}/>
-      Achivements Profile
+      Achievements profile
     </div>
   );
 }

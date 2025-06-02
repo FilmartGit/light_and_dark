@@ -1,16 +1,15 @@
+import { useMemo } from 'react';
+import ACHIVE from '../../../constants/achievements';
 import IconsUI from "../../../ui/icons";
 import style from "../../aside.module.css";
-import ACHIVE from "../../../dashboard/constant";
+
 
 export default function AchivmentsProgress() {
-  const summProgress = ACHIVE.reduce((acc, cur) => {
-    return acc + cur.progress;
-  }, 0);
-  const calcProgress = () => {
-    const count = Math.floor(summProgress / ACHIVE.length);
-    return count;
-  };
-  const progress = calcProgress();
+  
+  const progress = useMemo(() => {
+    return Math.floor(ACHIVE.reduce((acc, cur) =>  acc + cur.progress, 0) / ACHIVE.length);
+  }, []);
+
   return (
     <div className={style.achivementProfile}>
       <span>Прогресс достижений</span>

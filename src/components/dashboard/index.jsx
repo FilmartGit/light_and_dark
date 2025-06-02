@@ -1,8 +1,9 @@
+import ACHIVE from '../constants/achievements';
 import AchiveCard from "./components/AchivCard";
 import AchivItems from "./components/AchivItems";
 import TagsDashboard from './components/tags';
 import TitleDashboard from "./components/title";
-import ACHIVE from "./constant"; 
+
 export default function Dashboard() {
   return (
     <main>

@@ -1,3 +1,4 @@
+import Tag from '../../ui/tag';
 import style from "../dashboard.module.css";
 
 export default function TagsDashboard({ achive }) {
@@ -6,9 +7,9 @@ export default function TagsDashboard({ achive }) {
   const full = achive.filter((item) => item.side === "fullstack");
   return (
     <div className={style.tagsLine}>
-       <div className={style.tag}>FrontEnd <span>{front.length}</span></div>
-       <div className={style.tag}>BackEnd <span>{back.length}</span></div>
-       <div className={style.tag}>FullStack <span>{full.length}</span></div>
+      <Tag >FrontEnd <span>{front.length}</span></Tag>
+      <Tag >BackEnd <span>{back.length}</span></Tag>
+      <Tag >FullStack <span>{full.length}</span></Tag>
     </div>
   );
 }

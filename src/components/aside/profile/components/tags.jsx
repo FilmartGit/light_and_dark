@@ -1,3 +1,4 @@
+import Tag from '../../../ui/tag';
 import style from "../../aside.module.css";
 
 const TagsValue = ["frontend", "psyhologie", "action"];
@@ -6,12 +7,8 @@ export default function TagsProfile() {
   return (
     <div className={style.tagsContainer}>
       {TagsValue.map((tagName) => (
-        <TagItem key={tagName} tagName={tagName} />
+        <Tag key={tagName}>{tagName}</Tag>
       ))}
     </div>
   );
-}
-
-export function TagItem({ tagName }) {
-  return <div className={style.tagsItem}>{tagName}</div>;
 }

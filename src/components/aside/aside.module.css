@@ -31,26 +31,34 @@
 }
 .avatar {
   position: absolute;
-  top: -45px;
+  top: -50px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 1px solid var(--border-color);
+  border: 5px solid var(--border-avatar);
+  -webkit-box-shadow: var(--shadow-default);
+  -moz-box-shadow: var(--shadow-default);
+  box-shadow: var(--shadow-default);
   background-position: center;
   background-size: cover;
   background-image: url("/public/photo.jpg");
 }
 
-.textContent {
+.profilename {
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
-.textContent a {
+.profilename h2 {
+  font-size: 1.7em;
+}
+.profilename a {
   text-decoration: underline;
   color: var(--text-color);
+  font-size: .8em;
 }
 
 .tagsContainer {
@@ -59,6 +67,7 @@
   flex-direction: row;
   gap: 5px;
   padding: 10px;
+  margin-top: 10px;
 }
 .tagsItem {
   border: 1px solid var(--border-color);
@@ -77,7 +86,8 @@
 }
 .about span,
 .form span,
-.achivementProfile span,  .plugins span {
+.achivementProfile span,
+.plugins span {
   font-size: small;
   color: var(--text-color-span);
 }
@@ -126,6 +136,7 @@
   font-size: 2.3em;
   font-weight: 600;
   padding: 0px 10px;
+  margin-top: 10px;
 }
 .progressTitle {
   font-size: 0.9em;
@@ -141,13 +152,13 @@
   color: var(--icon-color-clap);
 }
 
-.plugins{
+.plugins {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 10px;
 }
-.plugins a img{
+.plugins a img {
   width: 100%;
   height: auto;
 }
